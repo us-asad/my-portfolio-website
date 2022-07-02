@@ -34,8 +34,8 @@ const About = () => {
             </h4>
             <h3>About Me</h3>
             <p>I’m Asad Usmonov, a professional and talented Web Developer with JAM Stack development skills. I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences.</p>
-            <p>I have top <a href="#skills" className="app-link">skills</a> in JAM Stack for creating e-commerce, educational and etc. websites</p>
-            <p className="mb-3">Being a diligent, hardworking and result oriented man, I always work towards achieving best result on each project I lay my hands on.</p>
+            <p>I have top <a href="#skills" className="app-link">skills</a> in JAM Stack for creating e-commerce, educational etc. websites.</p>
+            <p className="mb-3">Being a diligent, hardworking and result oriented man, I always work towards achieving the best result on each project I lay my hands on.</p>
             {details?.length
               ? <a className="app-btn" href={`${details[0].cvUrl}?dl=`}>Download CV</a>
               : null}

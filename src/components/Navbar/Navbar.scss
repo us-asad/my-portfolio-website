@@ -15,6 +15,10 @@
   z-index: 2;
 }
 
+.app__navbar-mobile-show {
+  right: 0 !important;
+}
+
 .app__navbar-logo {
   display: flex;
   justify-content: flex-start;
@@ -86,12 +90,10 @@
   height: 35px;
   border-radius: 50%;
   position: relative;
-
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--secondary-color);
-
 
   svg {
     width: 70%;
@@ -103,26 +105,31 @@
     position: fixed;
     top: -1px;
     bottom: 0;
-    right: 0;
+    right: -120vw;
     z-index: 5;
 
     padding: 1rem;
 
     width: 80%;
     height: 100vh;
-    
+
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    
-    background: url('../../assets/bgIMG.png');
+
+    background: url("../../assets/bgIMG.png");
     background-color: var(--white-color);
     background-size: cover;
     background-repeat: repeat;
 
     /* top box shadow */
     box-shadow: 0px 0px 20px rgba(168, 168, 168, 0.15);
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 
     svg {
       width: 35px;
