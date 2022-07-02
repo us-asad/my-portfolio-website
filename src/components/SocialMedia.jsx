@@ -11,7 +11,7 @@ const SocialMedia = () => (
     <a href="https://www.fiverr.com/asad_4">
       <Fiverr />
     </a>
-    <a href="https://t.me/chilledcoder">
+    <a href="https://t.me/us_asad">
       <FaTelegramPlane />
     </a>
   </div>
