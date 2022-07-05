@@ -82,6 +82,13 @@
   text-align: center;
   color: var(--black-color);
   text-transform: capitalize;
+  width: 75%;
+
+  &.head-text-2 {
+    font-size: 2rem;
+    text-align: start;
+    margin-top: 3rem;
+  }
 
   span {
     color: var(--secondary-color);

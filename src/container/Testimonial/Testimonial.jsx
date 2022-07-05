@@ -36,17 +36,16 @@ const Testimonial = () => {
             <img src={urlFor(testimonials[currentIndex].imgurl)} alt={testimonials[currentIndex].name} />
             <div className="app__testimonial-content">
               <p className="p-text">{testimonials[currentIndex].feedback}</p>
-              <div>
-                <h4 className="bold-text">{testimonials[currentIndex].name}</h4>
-                <a
-                  className="p-text app__testimonial-company"
-                  href={testimonials[currentIndex].company_url}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {testimonials[currentIndex].company}
-                </a>
-              </div>
+              <a
+                href={testimonials[currentIndex].company_url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h4 className="bold-text">{testimonials[currentIndex].company}</h4>
+                <span className="p-text app__testimonial-company">
+                  Founder
+                </span>
+              </a>
             </div>
           </div>
 

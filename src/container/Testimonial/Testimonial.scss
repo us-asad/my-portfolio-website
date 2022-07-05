@@ -63,6 +63,7 @@
   a {
     text-decoration: none;
     transition: all .6s;
+    display: block;
 
     &:hover {
       color: var(--secondary-color);
